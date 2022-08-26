@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  align-items: center;
+  justify-content: center;
+}
+.small_header {
+  text-align: center;
+  margin-bottom: -30px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.App_header {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: aquamarine;
+  max-width: auto;
+  margin: auto;
+  border-radius: 0px 15px;
+  width: 20%;
+  border: 3px dashed crimson;
+}
+.d {
+  list-style-type: decimal;
+}
+.task {
+  margin: inherit;
+}
+button:hover {
+  background-color: lightskyblue;
+}
+input[type="text"]:focus {
+  background-color: rgb(199, 222, 236);
+}
+::marker {
+  color: rgb(18, 0, 182);
+  font-weight: bold;
+}
